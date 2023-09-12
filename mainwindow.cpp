@@ -6,7 +6,7 @@ MainWindow::MainWindow(QWidget *parent)
     , ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
-    setWindowTitle("关机小助手 by jjjzw");
+    setWindowTitle("关机小助手");
     setWindowIcon(QIcon(":/Icon.png"));
     ui->stackedWidget->setCurrentIndex(0);
     on_mode_1_clicked(true);
